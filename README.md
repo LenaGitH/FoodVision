@@ -14,12 +14,9 @@ This project fine-tunes pretrained CNN models on the [Food-101 dataset](https://
 
 | Model | Approach | Accuracy | Loss |
 |---|---|---|---|
-| EfficientNet-B0 | Feature Extraction | 51.0% | 2.00 |
-| EfficientNet-B2 | Feature Extraction | 49.1% | 2.11 |
-| EfficientNet-B0 | Fine-Tuned | 56.2% | 1.79 |
-| ResNet50 | Feature Extraction | 57.0% | 1.75 |
-| **ResNet50** | **Fine-Tuned** | **69.9%** | **1.13** |
-
+| EfficientNet-B2 | Feature Extraction | 54.6% | 1.79 |
+| EfficientNet-B0 | Fine-Tuned | 67.3% | 1.22 |
+| **ResNet50** | **Fine-Tuned** | **78.0%** | **0.83** |
 All models were trained and evaluated on the same data subset under identical conditions for fair comparison.
 
 ## Key Findings
